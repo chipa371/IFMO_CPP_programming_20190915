@@ -28,5 +28,14 @@
 using namespace std;
 
 int t04_count() {
-
+  char a;
+  cin >> a;
+  int k = 1;
+  while(a != '\n'){
+    if(int(a) == 32)
+      k++;
+    cin >> a;
+  }
+  cout << k;
+  
 }
