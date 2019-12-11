@@ -24,5 +24,11 @@
 using namespace std;
 
 int t02_up() {
+    char a;
+    cin >> a;
+    int c = int(a);
+    c -= 32;
+    cout << char(c);
+    return 0;
     
 }
