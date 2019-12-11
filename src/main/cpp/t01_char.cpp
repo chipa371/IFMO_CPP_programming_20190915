@@ -32,7 +32,7 @@ using namespace std;
 int t01_char() {
    char a;
     cin >> a;
-    if((int)a <= 57 && (int)a >= 48)
+    if(int(a) <= 57 && int(a) >= 48)
         cout << "yes";
     else
         cout << "no";
